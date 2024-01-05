@@ -332,13 +332,20 @@ export const Bio = {
       github: "https://github.com/prathik2401/Weather-app",
       webapp: "https://prathik2401.github.io/Weather-app/",
     },
-    
+    {
+      id: 2,
+      title: "Space Game",
+      date: "Dec 2023 - Jan 2024",
+      description:
+        "Space game is a JavaScript based Web Application Game. It works only on Desktop browsers. You can control the space ship using the arrow keys and fire using the Spacebar. It contains object oriented concepts such as inheritence, and polymorphism.",
+      image:
+        require('../assets/space-game.png'),
+      tags: [
+        "JavaScript",
+        "React JS",
+      ],
+      category: "web app",
+      github: "https://github.com/prathik2401/Space-Game-using-Javascript",
+      webapp: "https://spacegame-prathik2401.netlify.app/",
+    },
   ];
-  
-  // export const TimeLineData = [
-  //   { year: 2017, text: "Started my journey" },
-  //   { year: 2018, text: "Worked as a freelance developer" },
-  //   { year: 2019, text: "Founded JavaScript Mastery" },
-  //   { year: 2020, text: "Shared my projects with the world" },
-  //   { year: 2021, text: "Started my own platform" },
-  // ];
