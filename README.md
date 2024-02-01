@@ -1,2 +1,2 @@
 # My Portfolio Website
-This website is made using React.js
+This website is made using React JS
