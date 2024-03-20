@@ -176,7 +176,7 @@ export const ResumeButton = styled.a`
     max-width: 300px;
     text-align: center;
     padding: 16px 0;
-    color:${({ theme }) => theme.white};
+    color: ${({ theme }) => theme.white};
     border-radius: 20px;
     cursor: pointer;
     font-size: 20px;
@@ -185,20 +185,18 @@ export const ResumeButton = styled.a`
     background: hsla(271, 100%, 50%, 1);
     background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
     background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    box-shadow:  20px 20px 60px #1F2634,
-    -20px -20px 60px #1F2634;
+    background: -webkit-linear-gradient(225deg, rgb(186 118 255) 0%, rgb(237, 76, 255) 100%);
+    box-shadow: -10px 0px 60px rgba(107, 80, 194, 0.3), 1px 1px 60px rgba(107, 80, 194, 0.1);
+    text-shadow: 2px 2px 4px rgba(10, 0, 70, 0.5);
     &:hover {
         transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
+        transition: all 0.4s ease-in-out;
+        box-shadow: 10px 10px 30px rgba(186, 118, 255, 0.8);
+        filter: brightness(1);
     }    
-    
-    
+
     @media (max-width: 640px) {
         padding: 12px 0;
         font-size: 18px;
     } 
-
 `;

@@ -16,7 +16,7 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
       <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+          <a style={{ display: "flex", alignItems: "center", color: "black", marginBottom: '20;', cursor: 'pointer' }}>
             <AiFillRocket size="3rem" /> <Span>My Portfolio</Span>
           </a>
         </NavLogo>

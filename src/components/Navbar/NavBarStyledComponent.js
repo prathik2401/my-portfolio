@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import _default from '../../themes/default';
 
 export const Nav = styled.div`
-    background-color: ${({theme}) => theme.card_light};
+    background-color: ${({theme}) => theme.white};
     height: 80px;
     display: flex;
     align-items: center;
