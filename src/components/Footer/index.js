@@ -103,7 +103,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Sai Prathik R. All rights reserved.
+          &copy; 2024 Sai Prathik R. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
